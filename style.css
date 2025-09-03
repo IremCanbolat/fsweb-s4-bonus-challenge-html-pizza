@@ -39,27 +39,26 @@ header {
   gap: 10px;
 }
 
-.alt-icons{
+.ilk-iconlar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background-color: white;
+  height: 94px;
   width: 100%;
-  gap:10px;
-  margin: 0 auto;
   max-width: 1920px;
+  gap: 10px;
+  padding: 0 50px;
+  margin: 0;
 }
 
-.icons {
+.ilk-iconlar .icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
-  margin: 26px 426px;
-  
-height: 94;
-gap: 10px;
-
-
+  margin: 23px 426px;
+  height: 42;
+  gap: 52px;
+  max-width: 1680px;
 }
 
 .icons a {
@@ -73,7 +72,7 @@ gap: 10px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 19px;
 }
 
 .icons img {
@@ -82,14 +81,14 @@ gap: 10px;
 }
 
 h1{
-font-family: Roboto Condensed;
-font-weight: 300;
-font-style: Light;
-font-size: 86px;
-letter-spacing: 1.5px;
-text-align: center;
-margin:0; 
-color: white;
+  font-family: Roboto Condensed;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 86px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin:0; 
+  color: white;
 
 }
 
@@ -98,18 +97,18 @@ color: white;
   justify-content: center;
   align-items: center;
   font-family: Barlow;
-font-weight: 600;
-font-size: 18px;
-line-height: 56px;
-text-align: center;
-width: 193.265625px;
-height: 56px;
-background-color: #FDC913;
-border-radius: 50px;
-border-style: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 56px;
+  text-align: center;
+  width: 193.265625px;
+  height: 56px;
+  background-color: #FDC913;
+  border-radius: 50px;
+  border-style: none;
 }
 
-.header button a{
+.header  a{
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -121,13 +120,13 @@ border-style: none;
 .header h4 {
   display: flex;
   justify-content: center;
-font-family: Satisfy;
-font-weight: 400;
-font-style: Regular;
-font-size: 32px;
-line-height: 44.27px;
-text-align: center;
-color:#FDC913;
+  font-family: Satisfy;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 44.27px;
+  text-align: center;
+  color:#FDC913;
 }
 .total {
   display: flex;
@@ -135,23 +134,21 @@ color:#FDC913;
   justify-content: center;
   align-items: center;
   align-content: center;
-gap: 11px;
-margin: 0 auto;
-max-width: 1920px;
-
-  
+  gap: 11px;
+  margin: 0 auto;
+  max-width: 1920px;  
 }
 
 .total button {
   width: 138px;
-height: 48px;
-top: 203.75px;
-left: -10px;
-opacity: 1;
-border-radius: 50px;
-background-color: white;
-border-color: white;
-border-style: none;
+  height: 48px;
+  top: 203.75px;
+  left: -10px;
+  opacity: 1;
+  border-radius: 50px;
+  background-color: white;
+  border-color: white;
+  border-style: none;
 
 }
 
@@ -211,7 +208,6 @@ font-weight: 600;
 font-style: SemiBold;
 font-size: 20px;
 color: white;
-
 }
 
 
@@ -225,10 +221,6 @@ color: white;
   width: 530px;
   height: 350px;
   gap: 9px;
-
-
-  
-  
   
 }
 
@@ -238,7 +230,7 @@ color: white;
   background-image:url("public/assets/iteration-2/cta/kart-2.png");
   background-size: cover;
   background-repeat: no-repeat;
- width: 530px;
+  width: 530px;
   height: 220px;
   justify-content: space-between;
   padding: 32px;
@@ -247,10 +239,10 @@ color: white;
 
 .hackhatlon h2 {
   font-family: Barlow;
-font-weight: 600;
-font-size: 32px;
-line-height: 44.27px;
-color:white
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44.27px;
+  color:white
 }
 
 .npm {
@@ -267,14 +259,14 @@ color:white
 
 }
 
-.sadece-yazi {
+.yazi {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   
 }
-.sadece-yazi h4{
+.yazi h4{
 font-family: Satisfy;
 font-weight: 400;
 font-size: 32px;
@@ -283,14 +275,14 @@ color: red;
 margin-bottom: 0;
 
 }
-.sadece-yazi h3 {
+.yazi h3 {
   margin: 10px;
   font-family: Barlow;
 font-weight: 600;
 font-size: 42px;
 color: black;
 }
-.alt-butonlar {
+.alt-iconlar {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -300,24 +292,24 @@ color: black;
   margin: 0 auto; 
 }
 
-.alt-butonlar button {
+.alt-iconlar button {
   border-radius: 50px;
-background-color: white;
-border-color: white;
-border-style: none;
-text-align: center;
-gap:10px;
-padding: 10px;
-margin:10px;
-width: 150px;
-height: 55px;
+  background-color: white;
+  border-color: white;
+  border-style: none;
+  text-align: center;
+  gap:10px;
+  padding: 10px;
+  margin:10px;
+  width: 150px;
+  height: 55px;
 }
-.alt-butonlar img {
+.alt-iconlar img {
   width: 42px;
   height: 42px;
 }
 
-.alt-butonlar a{
+.alt-iconlar a{
   display: flex;
   text-align: center;
   align-items: center;
@@ -327,20 +319,18 @@ height: 55px;
 }
 
 .gray button{  
-  
   border-radius: 50px;
-background-color:#292929 ;
-border-color: white;
-border-style: none;
-text-align: center;
-gap:10px;
-padding: 10px;
-margin:10px;
-
+  background-color:#292929 ;
+  border-color: white;
+  border-style: none;
+  text-align: center;
+  gap:10px;
+  padding: 10px;
+  margin:10px;
 }
 
 .gray button a{
-   display: flex;
+  display: flex;
   text-align: center;
   align-items: center;
   text-decoration: none;
@@ -399,22 +389,24 @@ font-size: 19px;
 
 }
 
-footer section{
+footer section {
   display: flex;
   flex-direction: row;
   background-color: #1A1A1A;
-  max-width: 1920px;
-  height: 500px;
+  max-width: 1920px;  
+  width: 100%;      
   margin: 0 auto;
   color: white;
-  padding: 0 300px;
+  padding: 40px 20px;  
   justify-content: space-between;
- align-items: center;
+  align-items: flex-start;
+  gap: 40px; 
 }
+
 .info {
   display: flex;
   flex-direction: column;  
-  margin: 10px;
+  margin: 0 100px 0 400px;
   gap:10px;
 
 }
@@ -440,6 +432,7 @@ padding-right: 50px;
   display: flex;
   flex-direction: column;
   gap:10px;
+  margin: 0 400px 0 0;
 }
 
 .görseller-footer{
@@ -449,15 +442,28 @@ padding-right: 50px;
 }
 
 .en-alt {
+  width: 100%;
+  max-width: 1920px;
+  padding: 0 0 0 40px;
+  margin: 0 30px 0 30px; ;
+  background-color: #1A1A1A;
+  border-top: 1px solid #FFFFFF26;
+  padding-top: 1rem;
+
+}
+
+.en-alt div {
+  width: 100%;
+  max-width: 1064.58px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between; 
   align-items: center;
-  gap:1000px;
-  padding: 20px;
-  background-color: #1A1A1A;
+  text-align: center;
+  font-size: 16px;
   color: white;
-  border: 1px solid #FFFFFF26;
+  margin: 0 400px 0 400px;
+  padding: 31.4px 0 31.4px 0;
 }
 
 .menu {
@@ -465,16 +471,16 @@ padding-right: 50px;
   padding:0;
 }
 .menu h5{
-font-family: Barlow;
+font-family: Barlow , sans-serif;
 font-weight: 400;
 font-size: 18px;
-
 }
 
 
  @media (max-width: 580px) {
 
   header {
+    height: 100%;
     max-width: 580px; 
     display: flex;
     justify-content: center;
@@ -484,7 +490,7 @@ font-size: 18px;
   }
 
   .header {
-    max-width: 580px; 
+    max-width: 580px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -502,18 +508,24 @@ font-size: 18px;
     justify-content: center;
     align-items: center;
     gap: 15px;
-     max-width: 580px; 
+    width: 100%;
+    max-width: 580px; 
     padding: 25px;
+    margin: 0 auto;
   }
 
-  .icons {
-    justify-content: center;
+  .alt-icons .icons {
+    justify-content: space-between;
     align-items: center;
-    margin: 50px;
+    margin: 5px;
     flex-wrap: wrap;
     gap: 80px;
+    padding: 0 25px;
+    max-width: 580px;
+    width: 100%;
   }
 
+  
   .total {
     display: flex;
     flex-direction: column;
@@ -544,14 +556,14 @@ font-size: 18px;
     border-radius: 12px;
   }
 
-  .sadece-yazi {
+  .yazi {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 150px 0 0 0;
   }
 
-  .sadece-yazi h4 {
+  .yazi h4 {
     font-family: Satisfy;
     font-weight: 400;
     font-size: 32px;
@@ -560,7 +572,7 @@ font-size: 18px;
     vertical-align: middle;
   }
 
-  .sadece-yazi h3 {
+  .yazi h3 {
     text-align: center;
     font-family: Barlow;
     font-weight: 600;
@@ -570,7 +582,7 @@ font-size: 18px;
     vertical-align: middle;
   }
 
-  .alt-butonlar {
+  .alt-iconlar {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -596,7 +608,7 @@ font-size: 18px;
     display: flex;
     flex-direction: column;
     background-color: #1A1A1A;
-     max-width: 580px; 
+    max-width: 580px; 
     height: auto;
     margin: 0;
     color: white;
@@ -604,16 +616,29 @@ font-size: 18px;
     align-items: flex-start;
   }
 
-  .en-alt {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 250px;
-    padding: 50px 0 50px 50px;
-    background-color: #1A1A1A;
-    color: white;
-    border: 1px solid #FFFFFF26;
-   max-width: 580px; 
-  }
+  .info { 
+  margin: 0 ;
+  padding: 0 ;
+  gap:10px;
+
 }
+  .en-alt {
+  display: flex;
+  justify-content: space-between;   
+  align-items: center;
+  max-width: 580px;
+  width: 100%;
+  margin: 0 ;
+  padding: 10px 25px;
+  border-top: 1px solid #FFFFFF26;
+  max-width: 580px; 
+  }
+  .en-alt div {
+    margin: 0 ;
+    padding: 0;
+    width: 100%;
+    max-width: 580px;
+  }
+
+}
+
